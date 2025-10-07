@@ -26,7 +26,7 @@ export function HeroSection() {
        
 
           <div className="flex flex-wrap gap-4">
-           <Link href="https://www.notion.so/preshpie/Web-Development-270919f0b4d38002b0a9d8497e0811bc">
+           <Link href="https://www.notion.so/preshpie/Tech-Path-26f919f0b4d380bc959bd723eafd6ce5">
             <Button className="bg-primary !rounded-[8px] text-primary-foreground hover:bg-primary/90 px-8">
               Get Started
             </Button>
@@ -40,15 +40,15 @@ export function HeroSection() {
 
           <div className="grid grid-cols-3 gap-6 pt-8">
             <div>
-              <div className="text-4xl font-bold text-[oklch(0.70_0.20_340)]">50+</div>
-              <div className="text-sm text-muted-foreground mt-1">Courses to</div>
+              <div className="text-4xl font-bold text-[oklch(0.70_0.20_340)]">3+</div>
+              <div className="text-sm text-muted-foreground mt-1">Courses</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary">1000+</div>
+              <div className="text-4xl font-bold text-primary">10+</div>
               <div className="text-sm text-muted-foreground mt-1">Students</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-[oklch(0.75_0.18_50)]">100+</div>
+              <div className="text-4xl font-bold text-[oklch(0.75_0.18_50)]">5+</div>
               <div className="text-sm text-muted-foreground mt-1">Professional</div>
             </div>
           </div>

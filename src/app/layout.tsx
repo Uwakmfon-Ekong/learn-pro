@@ -23,8 +23,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "LearnPro",
-  description: "Embark on your learning journey with LearnPro.",
+  title: "Tech-Path",
+  description: "Tech-Path is your gateway to mastering web development, data science, and project management through expert-led online courses.",
+   icons: {
+    icon: "/Frame 16.svg", 
+  },
 };
 
 export default function RootLayout({

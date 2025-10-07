@@ -15,7 +15,7 @@ export function Header() {
       <div className="container m-auto w-full flex items-center justify-between py-8 px-4 lg:px-8">
         <div>
           <Link href="/" className="flex items-center gap-2">
-            <Image src={Logo} alt="LearnPro Logo" className="" />
+            <Image src={Logo} alt="Logo" className=""/>
           </Link>
         </div>
 
@@ -27,25 +27,14 @@ export function Header() {
             Home
           </Link>
           <Link
-            href="/courses"
+            href="https://www.notion.so/preshpie/Tech-Path-26f919f0b4d380bc959bd723eafd6ce5"
             className="text-[18px] font-bold text-foreground hover:text-primary transition-colors"
           >
             Courses
           </Link>
+
           <Link
-            href="/instructors"
-            className="text-[18px] font-bold text-foreground hover:text-primary transition-colors"
-          >
-            Instructors
-          </Link>
-          <Link
-            href="/testimonials"
-            className="text-[18px] font-bold text-foreground hover:text-primary transition-colors"
-          >
-            Testimonials
-          </Link>
-          <Link
-            href="/contact"
+            href="https://x.com/WhakeeSui"
             className="text-[18px] font-bold text-foreground hover:text-primary transition-colors"
           >
             Contact
@@ -55,16 +44,16 @@ export function Header() {
         <div className="flex items-center gap-6">
           <Link
             href="
-          https://www.notion.so/preshpie/Web-Development-270919f0b4d38002b0a9d8497e0811bc"
+          https://www.notion.so/preshpie/Tech-Path-26f919f0b4d380bc959bd723eafd6ce5"
           >
             <Button className="hidden sm:inline-flex !text-primary border-2 border-primary bg-transparent">
               Get Started
             </Button>
           </Link>
           <Link href="https://x.com/WhakeeSui">
-          <Button className="hidden sm:inline-flex bg-primary text-primary-foreground hover:bg-primary/90">
-            Contact Us
-          </Button>
+            <Button className="hidden sm:inline-flex bg-primary text-primary-foreground hover:bg-primary/90">
+              Contact Us
+            </Button>
           </Link>
 
           <Button
@@ -92,28 +81,15 @@ export function Header() {
               Home
             </Link>
             <Link
-              href="/courses"
+              href="https://www.notion.so/preshpie/Tech-Path-26f919f0b4d380bc959bd723eafd6ce5"
               className="text-[18px] font-bold text-foreground hover:text-primary transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
               Courses
             </Link>
+
             <Link
-              href="/instructors"
-              className="text-[18px] font-bold text-foreground hover:text-primary transition-colors py-2"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Instructors
-            </Link>
-            <Link
-              href="/testimonials"
-              className="text-[18px] font-bold text-foreground hover:text-primary transition-colors py-2"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Testimonials
-            </Link>
-            <Link
-              href="/contact"
+              href="https://x.com/WhakeeSui"
               className="text-[18px] font-bold text-foreground hover:text-primary transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
@@ -121,13 +97,12 @@ export function Header() {
             </Link>
             <Link
               href="
-          https://www.notion.so/preshpie/Web-Development-270919f0b4d38002b0a9d8497e0811bc"
+          https://www.notion.so/preshpie/Tech-Path-26f919f0b4d380bc959bd723eafd6ce5"
             >
               <Button className=" sm:inline-flex !text-primary border-2 border-primary bg-transparent">
                 Get Started
               </Button>
             </Link>
-           
           </div>
         </nav>
       )}
