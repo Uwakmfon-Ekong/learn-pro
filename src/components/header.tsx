@@ -19,34 +19,13 @@ export function Header() {
           </Link>
         </div>
 
-        <nav className="hidden md:flex items-center justify-center gap-8">
-          <Link
-            href="/"
-            className="text-[18px] font-bold text-foreground hover:text-primary transition-colors"
-          >
-            Home
-          </Link>
-          <Link
-            href="https://www.notion.so/preshpie/Tech-Path-26f919f0b4d380bc959bd723eafd6ce5"
-            className="text-[18px] font-bold text-foreground hover:text-primary transition-colors"
-          >
-            Courses
-          </Link>
-
-          <Link
-            href="https://x.com/WhakeeSui"
-            className="text-[18px] font-bold text-foreground hover:text-primary transition-colors"
-          >
-            Contact
-          </Link>
-        </nav>
 
         <div className="flex items-center gap-6">
           <Link
             href="
           https://www.notion.so/preshpie/Tech-Path-26f919f0b4d380bc959bd723eafd6ce5"
           >
-            <Button className="hidden sm:inline-flex !text-primary border-2 border-primary bg-transparent">
+            <Button className="sm:inline-flex !text-primary border-2 border-primary bg-transparent">
               Get Started
             </Button>
           </Link>
@@ -56,7 +35,7 @@ export function Header() {
             </Button>
           </Link>
 
-          <Button
+          {/* <Button
             className="md:hidden"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle menu"
@@ -66,14 +45,14 @@ export function Header() {
             ) : (
               <Menu className="text-primary" />
             )}
-          </Button>
+          </Button> */}
         </div>
       </div>
 
       {mobileMenuOpen && (
         <nav className="md:hidden border-t border-border bg-background">
           <div className="container mx-auto px-4 py-4 flex flex-col gap-4">
-            <Link
+            {/* <Link
               href="/"
               className="text-[18px] font-bold text-foreground hover:text-primary transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
@@ -94,7 +73,7 @@ export function Header() {
               onClick={() => setMobileMenuOpen(false)}
             >
               Contact
-            </Link>
+            </Link> */}
             <Link
               href="
           https://www.notion.so/preshpie/Tech-Path-26f919f0b4d380bc959bd723eafd6ce5"
