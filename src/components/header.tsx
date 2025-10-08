@@ -12,7 +12,7 @@ export function Header() {
 
   return (
     <header className="top-0  z-50 sticky border-b border-border bg-background font-inter">
-      <div className="container m-auto w-full flex items-center justify-between py-8 px-4 lg:px-8">
+      <div className="container m-auto w-full flex items-center justify-between py-6 px-4 lg:px-8">
         <div>
           <Link href="/" className="flex items-center gap-2">
             <Image src={Logo} alt="Logo" className=""/>

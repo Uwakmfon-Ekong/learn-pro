@@ -38,6 +38,10 @@ export function HeroSection() {
             </Link>
           </div>
 
+          <div>
+            <h1>The future of coding is HeroSection.it beins with us and it is the way we go </h1>
+          </div>
+
           <div className="grid grid-cols-3 gap-6 pt-8">
             <div>
               <div className="text-4xl font-bold text-[oklch(0.70_0.20_340)]">3+</div>
