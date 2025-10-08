@@ -11,7 +11,7 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="top-0  z-50 sticky border-b border-border bg-background font-inter">
+    <header className="top-0 z-50 sticky border-b border-border bg-background font-inter">
       <div className="container m-auto w-full flex items-center justify-between py-6 px-4 lg:px-8">
         <div>
           <Link href="/" className="flex items-center gap-2">

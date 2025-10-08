@@ -1,14 +1,14 @@
 import { Button } from "./button";
 import Image from "next/image";
-import HeroImage from "../../public/Group 2.svg";
+import HeroImage from "../../public/dark.jpg";
 import Link from "next/link";
 import StatsSection from "./statsection";
 
 export function HeroSection() {
   return (
-    <section className="container mx-auto px-4 py-8 lg:py-12">
+    <section className="w-full px-4 lg:px-24 py-8 lg:py-12">
       <div className="flex flex-col-reverse lg:flex-row justify-center gap-12 items-center">
-        <div className="space-y-8">
+        <div className="space-y-8 lg:w-1/2">
           <div className="space-y-8">
             <h1 className="text-[30px] font-outfit sm:text-5xl lg:text-6xl xl:text-[55px] font-bold leading-tight text-balance">
               Embark on a <span className="text-primary">Delightful</span>
@@ -40,7 +40,7 @@ export function HeroSection() {
           <StatsSection />
         </div>
 
-        <div className="relative z-10 flex items-center justify-center h-full">
+        <div className="relative z-10 flex items-center justify-center h-full lg:w-1/2">
           <Image
             src={HeroImage}
             alt="Hero Image"
